@@ -90,6 +90,7 @@ class MainActivity : AppCompatActivity() {
                                 opponentFound = false
                             }
                             1L -> {
+                                binding.tvRoomID.text = "RoomID : $roomId"
                                 showProgressDialog(roomId)
                             }
                             2L -> {
@@ -97,7 +98,6 @@ class MainActivity : AppCompatActivity() {
                                     dialog.dismiss()
                                 }
 
-                                binding.tvRoomID.text = "RoomID : $roomId"
                                 opponentFound = true
 
                                 playerTurn = playerId
