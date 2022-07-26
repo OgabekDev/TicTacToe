@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".activity.PlayerName">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Tic Tac Toe"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etRoomID"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/et_background"
+        android:hint="Enter Room ID"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnEnterGame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/et_background"
+        android:layout_marginTop="25dp"
+        android:text="Enter Game"/>
+
+    <Button
+        android:id="@+id/btnCreateGame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/et_background"
+        android:layout_marginTop="75dp"
+        android:text="Create Game"/>
+
+</LinearLayout>

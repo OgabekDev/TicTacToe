@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "616792503946",
+    "project_id": "tictactoe-ogabekdev",
+    "storage_bucket": "tictactoe-ogabekdev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616792503946:android:a5eb79ddbfa6bad2a89f73",
+        "android_client_info": {
+          "package_name": "dev.ogabek.tictactoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616792503946-cof1vcp2piu165sttq3oi6be9e720los.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.ogabek.tictactoe",
+            "certificate_hash": "89a962859c236f7c92319de414a6bbf74cb3b959"
+          }
+        },
+        {
+          "client_id": "616792503946-ml4bl7b29pf27b8o38kger7bdjrvhon0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-8npTtTBUqDR-vBOiK_4SIlZNxaLX8Fc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616792503946-ml4bl7b29pf27b8o38kger7bdjrvhon0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
